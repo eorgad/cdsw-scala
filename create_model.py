@@ -19,7 +19,7 @@ print(data[:14])
 
 import seaborn as sns; 
 sns.set()
-ax = sns.heatmap(data, annot=True)
+ax = sns.heatmap(data, annot=True,annot_kws={'size':7}, fmt='.1f')
 
 
 data_path2 = 'test_ns.csv'
@@ -38,7 +38,7 @@ print(data2[:14])
 
 import seaborn as sns; 
 sns.set()
-ax = sns.heatmap(data2, annot=True)
+ax = sns.heatmap(data2, annot=True,annot_kws={'size':7}, fmt='.1f')
 
 
 
